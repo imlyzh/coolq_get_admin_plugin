@@ -1,0 +1,6 @@
+{
+    "host": "127.0.0.1",
+    "port": 5700,
+    "super_user": 12,
+    "wait_minute": 10
+}

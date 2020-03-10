@@ -1,5 +1,5 @@
 import typing
-import typing_extensions
+# import typing_extensions
 import asyncio
 import aiocqhttp.api
 # import nonebot
@@ -8,7 +8,7 @@ import logging
 
 from os import path
 from nonebot import on_request, on_notice, RequestSession
-from config import 入群提示信息, WAIT_MINUTE, SUPERUSER, HOST, PORT
+from config import WAIT_MINUTE, SUPERUSER, HOST, PORT
 
 
 '''

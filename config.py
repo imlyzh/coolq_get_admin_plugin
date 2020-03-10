@@ -1,13 +1,16 @@
 import typing_extensions
+import json
 
 from nonebot.default_config import *
 
-SUPERUSER: typing_extensions.Final[int] = 0
 
-WAIT_MINUTE: typing_extensions.Final[int] = 10
-
-入群提示信息: typing_extensions.Final[str] = f'...LYZH，请在{WAIT_MINUTE}分钟内添加为管理员'
+with open('cgap.config.json') as file:
+    config = json.load(file)
 
 
-HOST = '127.0.0.1'
-PORT = 5700
+SUPERUSER: int = int(config['super_user'])
+
+WAIT_MINUTE: int = int(config['wait_minute'])
+
+HOST = str(config['host'])
+PORT = int(config['port'])
