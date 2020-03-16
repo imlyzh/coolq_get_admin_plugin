@@ -7,13 +7,14 @@
 提供了Pyinstaller打包的方法（pkg.cmd）
 
 ## 使用方法:
-1. 将`扣扣号.json`文件复制到`\data\app\io.github.richardchien.coolqhttpapi\config`目录中并改名为机器人的QQ号
-2. 启动CQHTTP插件
-3. 将`bot.exe`和`cgap.config.json`放在一个文件夹中，并配置`cgap.config.json`文件
+1. 将`扣扣号.json`文件复制到`{酷Q目录}\data\app\io.github.richardchien.coolqhttpapi\config`目录中并改名为机器人的QQ号
+2. 将`bot.exe`和`cgap.config.json`放在一个文件夹中，并配置`cgap.config.json`文件
     - "super_user": 你的QQ号,
     - "wait_minute": 等待后退群时间
     - 其它如果你不明白是什么，不要动
+3. 启动CQHTTP插件
 4. 启动`bot.exe`
+5. 除了以上所述文件，若无必要，请自行删除
 
 ## Append:
 
